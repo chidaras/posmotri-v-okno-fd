@@ -80,7 +80,7 @@ ol {
 
 .result {
   grid-area: result;
-  width: 711px;
+  /* width: 711px; */
   margin-top: 96px;
 }
 
@@ -102,10 +102,8 @@ ol {
 
 .result__video-container {
   position: relative;
-  /* inline-size: 711px;
- block-size: 386px; */
-  width: 711px;
-  height: 386px;
+  /* width: 711px; */
+  /* height: 386px; */
   padding-bottom: 16px;
 }
 
@@ -140,7 +138,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  /* font-family: Fira Sans Condensed; */
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -190,7 +188,7 @@ ol {
 
 .content__video-card-title {
   width: 196px;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -207,8 +205,8 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
   /* font-family: Fira Sans Condensed; */
-  font-weight: 400;
-  font-size: 18px;
+  /* font-weight: 400; */
+  /* font-size: 18px; */
   line-height: 16.2px;
   letter-spacing: 0;
 }
@@ -242,9 +240,9 @@ ol {
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
 
-  font-family: Fira Sans Condensed;
-  font-weight: 400;
-  font-size: 18px;
+  /* font-family: Fira Sans Condensed; */
+  /* font-weight: 400; */
+  /* font-size: 18px; */
   line-height: 100%;
   letter-spacing: 0;
 }
@@ -283,7 +281,7 @@ ol {
   border-width: 1px;
   background-color: transparent;
   border: 1px solid #fff;
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
