@@ -96,14 +96,10 @@ ol {
   overflow: auto;
 }
 
-.title {
-  padding-bottom: 26px;
-}
-
 .result__video-container {
   position: relative;
-  /* width: 711px; */
-  /* height: 386px; */
+  width: 711px;
+  height: 386px;
   padding-bottom: 16px;
 }
 
@@ -153,6 +149,7 @@ ol {
   line-height: 94%;
   letter-spacing: 0;
   text-transform: uppercase;
+  padding-bottom: 26px;
 }
 
 .content__accent {
@@ -182,9 +179,6 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link_current {
-  background-color: #545050;
-}
 
 .content__video-card-title {
   width: 196px;
