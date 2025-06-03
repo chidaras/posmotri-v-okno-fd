@@ -70,10 +70,8 @@ ol {
 .content {
   display: grid;
   width: 1140px;
-  height: 534px;
-  padding-top: 33px;
+  padding-top: 60px;
   grid-template-columns: 711px 399px;
-  grid-auto-rows: 534px;
   grid-template-areas: "result details";
   gap: 30px;
   /* padding-left: 30px; */
@@ -100,7 +98,8 @@ ol {
 
 .content__list-container {
   position: relative;
-  block-size: 390px;
+  block-size: 298px;
+  /* block-size: 390px; */
   overflow: auto;
 }
 
@@ -304,7 +303,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid inherit;
+  outline: 1px solid #fff;
 }
 
 .search-form__submit-button {
