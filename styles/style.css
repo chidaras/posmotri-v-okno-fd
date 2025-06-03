@@ -267,8 +267,8 @@ ol {
   content: "";
   background-color: #fff;
   outline: 1px solid #fff;
-  min-width: 15px;
-  min-height: 15px;
+  min-width: 13px;
+  min-height: 13px;
 }
 
 .search-form__label:hover:not(:has(.search-form__textfield)) {
