@@ -86,7 +86,6 @@ ol {
   display: flex;
   flex-direction: column;
   grid-area: result;
-  justify-content: space-between;
   gap: 16px;
   align-self: self-end;
 }
@@ -94,7 +93,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  height: 54px;
 }
 
 .content__list-container {
