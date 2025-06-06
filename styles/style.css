@@ -222,8 +222,10 @@ ol {
 .search-form__label {
   display: flex;
   align-items: center;
+  /* justify-content: space-between; */
   width: fit-content;
   cursor: pointer;
+  gap: 5px;
 }
 
 .search-form__textfield {
@@ -262,7 +264,6 @@ ol {
   align-items: center;
   width: 19px;
   height: 19px;
-  margin-right: 1px;
   /* outline: 1px solid #fff; */
   border: 1px #fff solid;
 }
@@ -280,9 +281,9 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__label-text {
+/* .search-form__label-text {
   padding-left: 5px;
-}
+} */
 
 .button {
   border: 1px solid currentColor;
